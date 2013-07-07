@@ -26,10 +26,10 @@ set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 "set viminfo='20,<50,s10,h
 
 "set autoindent     " always set autoindenting on
-"set smartindent        " smart indent
+set smartindent        " smart indent
 "set cindent            " cindent
 set noautoindent
-set nosmartindent
+"set nosmartindent
 set nocindent  
 
 "set autowrite      " auto saves changes when quitting and swiching buffer
