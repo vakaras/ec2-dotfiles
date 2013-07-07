@@ -57,6 +57,7 @@ fi
 # Enable VI mode. 
 # For key bindings: man readline; # Search for vi-editing-mode
 set -o vi
+EDITOR=vim
 
 # Pakeičiam antraštę paprastesnei navigacijai tarp screen langų.
 case $TERM in
