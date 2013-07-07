@@ -1,0 +1,20 @@
+# vim: set ft=bash
+
+alias ls='ls --color=auto'
+alias rm='rm -i'
+alias ll='ls -lh'
+alias grep='grep --color=auto -nr'
+alias fgrep='fgrep --color=auto -nr'
+alias egrep='egrep --color=auto -nr'
+
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gcam='git commit -a -m'
+alias gs='git status'
+alias ga='git add'
+alias gap='git add --patch'
+alias gp='git push'
+alias gd='git diff --color --ignore-space-at-eol'
+alias gdc='git diff --color --cached'
+alias git-remove-ignored='git clean -d -x -f'
+alias gdw='git diff --color --word-diff'
